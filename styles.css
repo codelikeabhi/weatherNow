@@ -32,8 +32,8 @@
     background-color: #2D3142;
     border-radius: 1rem;
     padding: 2rem;
-    width: 430px;
-    height: 604px;
+    width: 30rem;
+    height: 53rem;
     border-bottom: 0.35rem solid #FFFFFF;
     border-right: 0.35rem solid #FFFFFF;
     z-index: -2;
@@ -67,10 +67,6 @@ h1{
 }
 
 .weather-container{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
     margin-block: 4rem;
 }
 
@@ -270,4 +266,28 @@ h1{
 .errorContainer.active{
     display: flex;
     gap: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .tab-container {
+        margin-top: 2rem;
+        width: 80%;
+    }
+
+    .tab {
+        font-size: 0.75rem;
+    }
+
+    .parameter-container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .parameter {
+        width: 100%;
+    }
 }

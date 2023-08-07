@@ -1,4 +1,11 @@
-const API_KEY = "f150f40ca84a68329b62680e560fe7e8";
+const API_KEY = "Enter Your API KEY here";
+
+/*```````````````````````````````````````````````````
+` `Go to https://openweathermap.org/api this link ```````````
+``Register Yourself as a user using your mail id & confirm```````
+``Go to your profile section select "My API Keys" ``````````````
+`` A key will appear there just copy and paste it in above section```
+````````````````````````````````````````````````````*/
 
 const userTab = document.querySelector("[data-userWeather]");
 const searchTab = document.querySelector("[data-searchWeather]");
